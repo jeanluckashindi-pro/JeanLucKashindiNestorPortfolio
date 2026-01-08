@@ -1,0 +1,46 @@
+{
+    "Navbar": {
+        "home": "Uhira",
+        "projects": "Imigambi & Ibikorwa",
+        "projectsDesc": "Raba ibikorwa vyanje vya kera n'ivyo ubu.",
+        "about": "ivyerekeye Jewe",
+        "aboutDesc": "Kahise kanje n'ubuhinga.",
+        "contact": "Twandikire",
+        "contactDesc": "Tuyage ku migambi yawe.",
+        "items": {
+            "projects_solo": "Imigambi Yanje",
+            "projects_solo_desc": "Application na site web zanje.",
+            "projects_corp": "Imigambi y'Ishirahamwe",
+            "projects_corp_desc": "Gukorana n'abandi mu kazi.",
+            "articles": "Ivyanditswe",
+            "articles_desc": "Gusangira ubumenyi.",
+            "discovery": "Ivyubuwe",
+            "discovery_desc": "Ubushakashatsi mu buhinga.",
+            "experience": "Uburambe",
+            "experience_desc": "Inzira yanje mu kazi.",
+            "skills": "Ubuhinga",
+            "skills_desc": "Technologies nzi neza.",
+            "history": "Kahise",
+            "history_desc": "Aho nava n'ingene nakuze.",
+            "education": "Amashure",
+            "education_desc": "Ivyo nize."
+        }
+    },
+    "Footer": {
+        "builtBy": "Vyakozwe na",
+        "contact": "Twandikire",
+        "profile": "Umwirondoro & CV"
+    },
+    "Home": {
+        "title": "Jean-Luc Kashindi Nestor",
+        "subtitle": "Umuhinga mu vya Web & Digital",
+        "description": "Ndikora imigambi ya digital igezweho kandi ikora neza. Ubuhinga mu gukora ama site web, application za telephone na architecture ya logiciels.",
+        "ctaPortfolio": "Raba Portfolio",
+        "ctaContact": "Nyandikira",
+        "expertiseTitle": "Ubuhinga Nyamukuru",
+        "expertiseSubtitle": "Ubuhinga bukomeye bw'imigambi minini.",
+        "recentWorkTitle": "Ivyo mpejeje gukora",
+        "recentWorkSubtitle": "Akarorero k'imigambi yanje ya vuba.",
+        "viewAllProjects": "Raba imigambi yose"
+    }
+}

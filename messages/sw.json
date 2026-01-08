@@ -1,0 +1,46 @@
+{
+    "Navbar": {
+        "home": "Nyumbani",
+        "projects": "Miradi & Kazi",
+        "projectsDesc": "Gundua kazi zangu za zamani na za sasa.",
+        "about": "Kuhusu Mimi",
+        "aboutDesc": "Historia yangu na ujuzi.",
+        "contact": "Mawasiliano",
+        "contactDesc": "Tujadili miradi yako.",
+        "items": {
+            "projects_solo": "Miradi ya Binafsi",
+            "projects_solo_desc": "Programu na tovuti za kibinafsi.",
+            "projects_corp": "Miradi ya Kampuni",
+            "projects_corp_desc": "Ushirikiano wa kitaaluma.",
+            "articles": "Makala",
+            "articles_desc": "Kushiriki maarifa.",
+            "discovery": "Uvumbuzi",
+            "discovery_desc": "Uchunguzi wa kiteknolojia.",
+            "experience": "Uzoefu",
+            "experience_desc": "Safari yangu ya kitaaluma.",
+            "skills": "Ujuzi",
+            "skills_desc": "Teknolojia ninazozimudu.",
+            "history": "Historia",
+            "history_desc": "Asili yangu na maendeleo.",
+            "education": "Elimu",
+            "education_desc": "Msingi wa elimu."
+        }
+    },
+    "Footer": {
+        "builtBy": "Imetengenezwa na",
+        "contact": "Mawasiliano",
+        "profile": "Wasifu & CV"
+    },
+    "Home": {
+        "title": "Jean-Luc Kashindi Nestor",
+        "subtitle": "Msanidi Programu & Mbunifu wa Dijitali",
+        "description": "Ninabuni suluhisho za dijitali zenye ubunifu na utendaji wa hali ya juu. Utaalam katika maendeleo ya wavuti, programu za simu na usanifu wa programu.",
+        "ctaPortfolio": "Tazama Portfolio",
+        "ctaContact": "Wasiliana Nami",
+        "expertiseTitle": "Utaalam Mkuu",
+        "expertiseSubtitle": "Ujuzi thabiti wa kiufundi kwa miradi mikubwa.",
+        "recentWorkTitle": "Kazi za Hivi Karibuni",
+        "recentWorkSubtitle": "Uteuzi wa miradi yangu ya hivi karibuni.",
+        "viewAllProjects": "Tazama miradi yote"
+    }
+}

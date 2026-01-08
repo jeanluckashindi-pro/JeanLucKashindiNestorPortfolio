@@ -1,0 +1,46 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "projects": "Projects & Work",
+        "projectsDesc": "Discover my past and current work.",
+        "about": "About Me",
+        "aboutDesc": "My history and skills.",
+        "contact": "Contact",
+        "contactDesc": "Let's discuss your projects.",
+        "items": {
+            "projects_solo": "Solo Projects",
+            "projects_solo_desc": "Personal apps and sites.",
+            "projects_corp": "Corporate Projects",
+            "projects_corp_desc": "Professional collaborations.",
+            "articles": "Articles",
+            "articles_desc": "Sharing knowledge.",
+            "discovery": "Discovery",
+            "discovery_desc": "Tech explorations.",
+            "experience": "Experience",
+            "experience_desc": "My professional journey.",
+            "skills": "Skills",
+            "skills_desc": "Mastered technologies.",
+            "history": "History",
+            "history_desc": "My origin and evolution.",
+            "education": "Education",
+            "education_desc": "Academic background."
+        }
+    },
+    "Footer": {
+        "builtBy": "Built by",
+        "contact": "Contact",
+        "profile": "Profile & CV"
+    },
+    "Home": {
+        "title": "Jean-Luc Kashindi Nestor",
+        "subtitle": "Developer & Digital Creator",
+        "description": "I design innovative and high-performance digital solutions. Expertise in web, mobile development, and software architecture.",
+        "ctaPortfolio": "View Portfolio",
+        "ctaContact": "Contact Me",
+        "expertiseTitle": "Main Expertise",
+        "expertiseSubtitle": "Solid technical skills for ambitious projects.",
+        "recentWorkTitle": "Recent Work",
+        "recentWorkSubtitle": "A selection of my latest projects.",
+        "viewAllProjects": "View all projects"
+    }
+}

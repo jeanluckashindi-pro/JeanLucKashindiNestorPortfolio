@@ -1,0 +1,46 @@
+{
+  "Navbar": {
+    "home": "Accueil",
+    "projects": "Projets & Réalisations",
+    "projectsDesc": "Découvrez mes travaux passés et actuels.",
+    "about": "Mon Parcours",
+    "aboutDesc": "Mon histoire et mes compétences.",
+    "contact": "Contact",
+    "contactDesc": "Discutons de vos projets.",
+    "items": {
+      "projects_solo": "Projets Solo",
+      "projects_solo_desc": "Applications et sites personnels.",
+      "projects_corp": "Projets Entreprise",
+      "projects_corp_desc": "Collaborations professionnelles.",
+      "articles": "Articles",
+      "articles_desc": "Partage de connaissances.",
+      "discovery": "Veille",
+      "discovery_desc": "Explorations technologiques.",
+      "experience": "Expérience",
+      "experience_desc": "Mon parcours professionnel.",
+      "skills": "Compétences",
+      "skills_desc": "Technologies maîtrisées.",
+      "history": "Histoire",
+      "history_desc": "Mon origine et mon évolution.",
+      "education": "Education",
+      "education_desc": "Formation académique."
+    }
+  },
+  "Footer": {
+    "builtBy": "Construit par",
+    "contact": "Contact",
+    "profile": "Profil & CV"
+  },
+  "Home": {
+    "title": "Jean-Luc Kashindi Nestor",
+    "subtitle": "Développeur & Créateur Numérique",
+    "description": "Je conçois des solutions digitales innovantes et performantes. Expertise en développement web, mobile et architecture logicielle.",
+    "ctaPortfolio": "Voir le Portfolio",
+    "ctaContact": "Me Contacter",
+    "expertiseTitle": "Expertise Principale",
+    "expertiseSubtitle": "Des compétences techniques solides pour des projets ambitieux.",
+    "recentWorkTitle": "Réalisations Récentes",
+    "recentWorkSubtitle": "Une sélection de mes derniers projets.",
+    "viewAllProjects": "Voir tous les projets"
+  }
+}

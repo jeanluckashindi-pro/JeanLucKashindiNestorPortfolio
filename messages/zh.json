@@ -1,0 +1,46 @@
+{
+    "Navbar": {
+        "home": "首页",
+        "projects": "项目 & 作品",
+        "projectsDesc": "探索我过去和现在的工作。",
+        "about": "关于我",
+        "aboutDesc": "我的历史和技能。",
+        "contact": "联系",
+        "contactDesc": "让我们讨论您的项目。",
+        "items": {
+            "projects_solo": "个人项目",
+            "projects_solo_desc": "个人应用和网站。",
+            "projects_corp": "企业项目",
+            "projects_corp_desc": "专业合作。",
+            "articles": "文章",
+            "articles_desc": "分享知识。",
+            "discovery": "发现",
+            "discovery_desc": "技术探索。",
+            "experience": "经验",
+            "experience_desc": "我的职业生涯。",
+            "skills": "技能",
+            "skills_desc": "掌握的技术。",
+            "history": "历史",
+            "history_desc": "我的起源和发展。",
+            "education": "教育",
+            "education_desc": "学术背景。"
+        }
+    },
+    "Footer": {
+        "builtBy": "建立者",
+        "contact": "联系",
+        "profile": "个人资料 & 简历"
+    },
+    "Home": {
+        "title": "Jean-Luc Kashindi Nestor",
+        "subtitle": "开发者 & 数字创作者",
+        "description": "我设计创新且高性能的数字解决方案。擅长Web开发、移动应用开发和软件架构。",
+        "ctaPortfolio": "查看作品集",
+        "ctaContact": "联系我",
+        "expertiseTitle": "主要专长",
+        "expertiseSubtitle": "为雄心勃勃的项目提供坚实的技术技能。",
+        "recentWorkTitle": "近期作品",
+        "recentWorkSubtitle": "精选的最新项目。",
+        "viewAllProjects": "查看所有项目"
+    }
+}
