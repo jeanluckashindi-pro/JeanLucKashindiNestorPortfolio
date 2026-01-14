@@ -1,46 +1,238 @@
 {
-    "Navbar": {
-        "home": "Uhira",
-        "projects": "Imigambi & Ibikorwa",
-        "projectsDesc": "Raba ibikorwa vyanje vya kera n'ivyo ubu.",
-        "about": "ivyerekeye Jewe",
-        "aboutDesc": "Kahise kanje n'ubuhinga.",
-        "contact": "Twandikire",
-        "contactDesc": "Tuyage ku migambi yawe.",
-        "items": {
-            "projects_solo": "Imigambi Yanje",
-            "projects_solo_desc": "Application na site web zanje.",
-            "projects_corp": "Imigambi y'Ishirahamwe",
-            "projects_corp_desc": "Gukorana n'abandi mu kazi.",
-            "articles": "Ivyanditswe",
-            "articles_desc": "Gusangira ubumenyi.",
-            "discovery": "Ivyubuwe",
-            "discovery_desc": "Ubushakashatsi mu buhinga.",
-            "experience": "Uburambe",
-            "experience_desc": "Inzira yanje mu kazi.",
-            "skills": "Ubuhinga",
-            "skills_desc": "Technologies nzi neza.",
-            "history": "Kahise",
-            "history_desc": "Aho nava n'ingene nakuze.",
-            "education": "Amashure",
-            "education_desc": "Ivyo nize."
-        }
+    "MegaMenu": {
+        "Home": "Ahabanza",
+        "Profile": {
+            "Label": "Proarile",
+            "Featured": {
+                "Title": "Indangamuntu ya Digital",
+                "Desc": "Umuhinga, Umuremyi, Umwubatsi. Injira mu isi yanje.",
+                "CTA": "Bio Yuzuye"
+            },
+            "Columns": {
+                "Essentials": {
+                    "Title": "Vya Nkenerwa",
+                    "About": {
+                        "Label": "Ivyanje",
+                        "Desc": "Ndi nde?"
+                    },
+                    "History": {
+                        "Label": "Kahise",
+                        "Desc": "Aho nava"
+                    },
+                    "Values": {
+                        "Label": "Indangagaciro",
+                        "Desc": "Ingingo zanje"
+                    }
+                },
+                "Skills": {
+                    "Title": "Ubuhinga",
+                    "Hard": {
+                        "Label": "Ubuhinga bwa Tekiningi",
+                        "Desc": "Ubumenyi"
+                    },
+                    "Soft": {
+                        "Label": "Imibanire",
+                        "Desc": "Ubwenge bwo mu mutima"
+                    },
+                    "CV": {
+                        "Label": "CV / Resume",
+                        "Desc": "Imiterere ya PDF"
+                    }
+                }
+            }
+        },
+        "Experience": {
+            "Label": "Ubunararibonye",
+            "Featured": {
+                "Title": "Ingaruka",
+                "Desc": "Guhindura ibibazo mu nsiguro ziramba.",
+                "CTA": "Raba Ibihe"
+            },
+            "Columns": {
+                "Career": {
+                    "Title": "Umwuga",
+                    "Positions": {
+                        "Label": "Ibibanza",
+                        "Desc": "Ubunararibonye bwo ku kazi"
+                    },
+                    "Clients": {
+                        "Label": "Abakiriya",
+                        "Desc": "Ubufatanye"
+                    }
+                },
+                "Knowledge": {
+                    "Title": "Ubumenyi",
+                    "Diplomas": {
+                        "Label": "Impamyabumenyi",
+                        "Desc": "Master / Licence"
+                    },
+                    "Certs": {
+                        "Label": "Impamyabushobozi",
+                        "Desc": "Zemewe & Badges"
+                    }
+                },
+                "Highlights": {
+                    "Title": "Ibinyuranye",
+                    "Missions": {
+                        "Label": "Ubutumwa",
+                        "Desc": "Ivyo nakoze"
+                    },
+                    "Hackathons": {
+                        "Label": "Hackathons",
+                        "Desc": "Gucana amashyiga ningoga"
+                    }
+                }
+            }
+        },
+        "Projects": {
+            "Label": "Imigambi",
+            "Featured": {
+                "Title": "Ivyakozwe",
+                "Desc": "Code, Igishushanyo n'Ubwubatsi mu bikorwa.",
+                "CTA": "Imigambi yose"
+            },
+            "Columns": {
+                "Type": {
+                    "Title": "Ubwoko",
+                    "Pro": {
+                        "Label": "Akazi",
+                        "Desc": "Isosiyete"
+                    },
+                    "Personal": {
+                        "Label": "Ku giti canje",
+                        "Desc": "Imigambi yo kuruhande"
+                    },
+                    "OSS": {
+                        "Label": "Open Source",
+                        "Desc": "Umuryango"
+                    }
+                },
+                "Stack": {
+                    "Title": "Tech Stack",
+                    "Web": {
+                        "Label": "Web / SaaS",
+                        "Desc": "React - Next.js"
+                    },
+                    "Mobile": {
+                        "Label": "Mobile",
+                        "Desc": "React Native"
+                    },
+                    "Backend": {
+                        "Label": "Backend",
+                        "Desc": "Node - Go"
+                    }
+                },
+                "DeepDive": {
+                    "Title": "Incamake",
+                    "Cases": {
+                        "Label": "Ivyigwa",
+                        "Desc": "Isesengura ryimbitse"
+                    },
+                    "DevOps": {
+                        "Label": "DevOps",
+                        "Desc": "CI/CD & Ibikorwa"
+                    }
+                }
+            }
+        },
+        "Articles": {
+            "Label": "Ingingo",
+            "Featured": {
+                "Title": "Guhererekanya",
+                "Desc": "Gusangira kugira ngo wige neza.",
+                "CTA": "Blog"
+            },
+            "Columns": {
+                "Read": {
+                    "Title": "Soma",
+                    "Tech": {
+                        "Label": "Tekiningi",
+                        "Desc": "Ubwubatsi"
+                    },
+                    "Tutorials": {
+                        "Label": "Inyigisho",
+                        "Desc": "Ivyo Kumenya"
+                    },
+                    "News": {
+                        "Label": "Amakuru",
+                        "Desc": "Hari igishasha?"
+                    }
+                },
+                "Watch": {
+                    "Title": "Raba",
+                    "Trends": {
+                        "Label": "Imigenzo",
+                        "Desc": "Kazoza ka Web"
+                    },
+                    "Tools": {
+                        "Label": "Ibikoresho",
+                        "Desc": "Umusaruro"
+                    },
+                    "Reading": {
+                        "Label": "Gusoma",
+                        "Desc": "Ibitabo & Inyandiko"
+                    }
+                }
+            }
+        },
+        "Gallery": {
+            "Label": "Igikale",
+            "Featured": {
+                "Title": "Ivyiyumviro",
+                "Desc": "Isi biciye muri ecran zanje.",
+                "CTA": "Igikale"
+            },
+            "Columns": {
+                "Visuals": {
+                    "Title": "Amashusho",
+                    "Screenshots": {
+                        "Label": "Amafoto",
+                        "Desc": "HD Preview"
+                    },
+                    "UI": {
+                        "Label": "UI Design",
+                        "Desc": "Figma & Ivyiyumviro"
+                    },
+                    "Events": {
+                        "Label": "Ibirori",
+                        "Desc": "Inama"
+                    }
+                },
+                "Motion": {
+                    "Title": "Urugendo",
+                    "Demos": {
+                        "Label": "Demos",
+                        "Desc": "Ibikorwa vya Live"
+                    },
+                    "Talks": {
+                        "Label": "Impapuro",
+                        "Desc": "Umuvugizi"
+                    }
+                }
+            }
+        },
+        "Contact": "Twandikire",
+        "Available": "Ndaroneka",
+        "ContactMe": "Ndikira"
     },
     "Footer": {
-        "builtBy": "Vyakozwe na",
-        "contact": "Twandikire",
-        "profile": "Umwirondoro & CV"
-    },
-    "Home": {
-        "title": "Jean-Luc Kashindi Nestor",
-        "subtitle": "Umuhinga mu vya Web & Digital",
-        "description": "Ndikora imigambi ya digital igezweho kandi ikora neza. Ubuhinga mu gukora ama site web, application za telephone na architecture ya logiciels.",
-        "ctaPortfolio": "Raba Portfolio",
-        "ctaContact": "Nyandikira",
-        "expertiseTitle": "Ubuhinga Nyamukuru",
-        "expertiseSubtitle": "Ubuhinga bukomeye bw'imigambi minini.",
-        "recentWorkTitle": "Ivyo mpejeje gukora",
-        "recentWorkSubtitle": "Akarorero k'imigambi yanje ya vuba.",
-        "viewAllProjects": "Raba imigambi yose"
+        "Portfolio": "Portfolio",
+        "BrandQuote": "Kubaka kazoza ka digitale n'ubunifu, hamwe n'intumbero ishimikira ku muntu.",
+        "Explore": "Raba",
+        "Info": "Amakuru",
+        "Languages": "Izindi ndimi",
+        "Rights": "Uburenganzira bwose.",
+        "MadeWith": "Vyakozwe na Next.js & Ishaka",
+        "Remote": "Ndaroneka kuri Remote &<br/>Kwimuka birashoboka",
+        "Legal": "Amategeko",
+        "Privacy": "Politisie y'Ibanga",
+        "LangNote": "* Iyi portfolio iraboneka mu ndimi 8 kugirango yagure ubushobozi bwayo mpuzamahanga kandi yizigire gutahura neza profil yanje ku bantu batandukanye.",
+        "Links": {
+            "Projects": "Imigambi",
+            "Experience": "Ubunararibonye",
+            "Gallery": "Igikale",
+            "Articles": "Ingingo",
+            "About": "Ivyanje"
+        }
     }
 }

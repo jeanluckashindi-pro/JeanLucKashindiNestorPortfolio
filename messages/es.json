@@ -1,38 +1,38 @@
 {
     "MegaMenu": {
-        "Home": "Início",
+        "Home": "Inicio",
         "Profile": {
             "Label": "Perfil",
             "Featured": {
-                "Title": "Identidade Digital",
-                "Desc": "Desenvolvedor, Criativo, Arquiteto. Mergulhe no meu universo.",
+                "Title": "Identidad Digital",
+                "Desc": "Desarrollador, Creativo, Arquitecto. Sumérgete en mi universo.",
                 "CTA": "Bio Completa"
             },
             "Columns": {
                 "Essentials": {
-                    "Title": "Essencial",
+                    "Title": "Esencial",
                     "About": {
-                        "Label": "Sobre mim",
-                        "Desc": "Quem sou eu?"
+                        "Label": "Sobre mí",
+                        "Desc": "¿Quién soy?"
                     },
                     "History": {
-                        "Label": "História",
-                        "Desc": "Minha origem"
+                        "Label": "Historia",
+                        "Desc": "Mis orígenes"
                     },
                     "Values": {
                         "Label": "Valores",
-                        "Desc": "Meus princípios"
+                        "Desc": "Mis principios"
                     }
                 },
                 "Skills": {
-                    "Title": "Competências",
+                    "Title": "Habilidades",
                     "Hard": {
                         "Label": "Hard Skills",
-                        "Desc": "Experiência Técnica"
+                        "Desc": "Experiencia Técnica"
                     },
                     "Soft": {
                         "Label": "Soft Skills",
-                        "Desc": "Inteligência Emocional"
+                        "Desc": "Inteligencia Emocional"
                     },
                     "CV": {
                         "Label": "CV / Resume",
@@ -42,54 +42,54 @@
             }
         },
         "Experience": {
-            "Label": "Experiência",
+            "Label": "Experiencia",
             "Featured": {
                 "Title": "Impacto",
-                "Desc": "Transformar desafios em soluções duradouras.",
-                "CTA": "Ver Linha do Tempo"
+                "Desc": "Transformar desafíos en soluciones duraderas.",
+                "CTA": "Ver Cronología"
             },
             "Columns": {
                 "Career": {
-                    "Title": "Carreira",
+                    "Title": "Carrera",
                     "Positions": {
-                        "Label": "Cargos",
-                        "Desc": "Experiência Profissional"
+                        "Label": "Puestos",
+                        "Desc": "Experiencia Pro"
                     },
                     "Clients": {
                         "Label": "Clientes",
-                        "Desc": "Colaborações"
+                        "Desc": "Colaboraciones"
                     }
                 },
                 "Knowledge": {
-                    "Title": "Conhecimento",
+                    "Title": "Conocimiento",
                     "Diplomas": {
                         "Label": "Diplomas",
-                        "Desc": "Mestrado / Bacharelado"
+                        "Desc": "Máster / Licenciatura"
                     },
                     "Certs": {
-                        "Label": "Certificações",
-                        "Desc": "Oficiais & Emblemas"
+                        "Label": "Certificaciones",
+                        "Desc": "Oficiales & Insignias"
                     }
                 },
                 "Highlights": {
-                    "Title": "Destaques",
+                    "Title": "Destacados",
                     "Missions": {
-                        "Label": "Missões Chave",
-                        "Desc": "Conquistas"
+                        "Label": "Misiones Clave",
+                        "Desc": "Logros"
                     },
                     "Hackathons": {
                         "Label": "Hackathons",
-                        "Desc": "Inovação Rápida"
+                        "Desc": "Innovación Rápida"
                     }
                 }
             }
         },
         "Projects": {
-            "Label": "Projetos",
+            "Label": "Proyectos",
             "Featured": {
-                "Title": "Realizações",
-                "Desc": "Código, Design e Arquitetura em ação.",
-                "CTA": "Todos os projetos"
+                "Title": "Realizaciones",
+                "Desc": "Código, Diseño y Arquitectura en acción.",
+                "CTA": "Todos los proyectos"
             },
             "Columns": {
                 "Type": {
@@ -99,12 +99,12 @@
                         "Desc": "Empresa"
                     },
                     "Personal": {
-                        "Label": "Pessoal",
-                        "Desc": "Projetos Paralelos"
+                        "Label": "Personal",
+                        "Desc": "Side Projects"
                     },
                     "OSS": {
                         "Label": "Open Source",
-                        "Desc": "Comunidade"
+                        "Desc": "Comunidad"
                     }
                 },
                 "Stack": {
@@ -114,7 +114,7 @@
                         "Desc": "React - Next.js"
                     },
                     "Mobile": {
-                        "Label": "Mobile",
+                        "Label": "Móvil",
                         "Desc": "React Native"
                     },
                     "Backend": {
@@ -123,10 +123,10 @@
                     }
                 },
                 "DeepDive": {
-                    "Title": "Análises",
+                    "Title": "Análisis",
                     "Cases": {
-                        "Label": "Estudos de Caso",
-                        "Desc": "Análise Detalhada"
+                        "Label": "Estudios de caso",
+                        "Desc": "Análisis detallado"
                     },
                     "DevOps": {
                         "Label": "DevOps",
@@ -136,103 +136,103 @@
             }
         },
         "Articles": {
-            "Label": "Artigos",
+            "Label": "Artículos",
             "Featured": {
-                "Title": "Transmissão",
-                "Desc": "Compartilhar para aprender melhor.",
+                "Title": "Transmisión",
+                "Desc": "Compartir para aprender mejor.",
                 "CTA": "Blog"
             },
             "Columns": {
                 "Read": {
-                    "Title": "Ler",
+                    "Title": "Leer",
                     "Tech": {
                         "Label": "Técnicas",
-                        "Desc": "Arquiteturas"
+                        "Desc": "Arquitecturas"
                     },
                     "Tutorials": {
-                        "Label": "Tutoriais",
-                        "Desc": "Guias Práticos"
+                        "Label": "Tutoriales",
+                        "Desc": "Guías"
                     },
                     "News": {
-                        "Label": "Notícias",
-                        "Desc": "O que há de novo?"
+                        "Label": "Noticias",
+                        "Desc": "¿Qué hay de nuevo?"
                     }
                 },
                 "Watch": {
-                    "Title": "Observar",
+                    "Title": "Vigilancia",
                     "Trends": {
-                        "Label": "Tendências",
-                        "Desc": "Futuro da Web"
+                        "Label": "Tendencias",
+                        "Desc": "Futuro de la Web"
                     },
                     "Tools": {
-                        "Label": "Ferramentas",
-                        "Desc": "Produtividade"
+                        "Label": "Herramientas",
+                        "Desc": "Productividad"
                     },
                     "Reading": {
-                        "Label": "Leituras",
-                        "Desc": "Livros & Documentação"
+                        "Label": "Lecturas",
+                        "Desc": "Libros & Docs"
                     }
                 }
             }
         },
         "Gallery": {
-            "Label": "Galeria",
+            "Label": "Galería",
             "Featured": {
-                "Title": "Visões",
-                "Desc": "O mundo através das minhas telas.",
-                "CTA": "Galeria"
+                "Title": "Visiones",
+                "Desc": "El mundo a través de mis pantallas.",
+                "CTA": "Galería"
             },
             "Columns": {
                 "Visuals": {
-                    "Title": "Visuais",
+                    "Title": "Visuales",
                     "Screenshots": {
                         "Label": "Capturas",
-                        "Desc": "Visualização HD"
+                        "Desc": "Vistas HD"
                     },
                     "UI": {
-                        "Label": "UI Design",
-                        "Desc": "Figma & Conceitos"
+                        "Label": "Diseño UI",
+                        "Desc": "Figma & Conceptos"
                     },
                     "Events": {
                         "Label": "Eventos",
-                        "Desc": "Conferências"
+                        "Desc": "Conferencias"
                     }
                 },
                 "Motion": {
-                    "Title": "Movimento",
+                    "Title": "Movimiento",
                     "Demos": {
                         "Label": "Demos",
-                        "Desc": "Ações ao vivo"
+                        "Desc": "En vivo"
                     },
                     "Talks": {
-                        "Label": "Palestras",
+                        "Label": "Charlas",
                         "Desc": "Speaker"
                     }
                 }
             }
         },
-        "Contact": "Contato",
-        "Available": "Disponível",
-        "ContactMe": "Contate-me"
+        "Contact": "Contacto",
+        "Available": "Disponible",
+        "ContactMe": "Contáctame"
     },
     "Footer": {
-        "Portfolio": "Portfólio",
-        "BrandQuote": "Arquitetando o futuro digital com precisão, criatividade e uma visão centrada no humano.",
+        "Portfolio": "Portafolio",
+        "BrandQuote": "Arquitecturar el futuro digital con precisión, creatividad y una visión centrada en el ser humano.",
         "Explore": "Explorar",
-        "Info": "Informações",
+        "Info": "Información",
         "Languages": "Idiomas",
-        "Rights": "Todos os direitos reservados.",
-        "MadeWith": "Feito com Next.js & Paixão",
-        "Remote": "Disponível remotamente &<br/>Relocação possível",
-        "Legal": "Menções Legais",
-        "Privacy": "Política de Privacidade",
-        "LangNote": "* Este portfólio está disponível em 8 idiomas para expandir seu alcance internacional e garantir uma compreensão ideal do meu perfil por um público diversificado.",
+        "Rights": "Todos los derechos reservados.",
+        "MadeWith": "Diseñado con Next.js y Pasión",
+        "Remote": "Disponible en remoto &<br/>Reubicación posible",
+        "Legal": "Aviso Legal",
+        "Privacy": "Política de Privacidad",
+        "LangNote": "* Este portafolio está disponible en 8 idiomas para ampliar su alcance internacional y garantizar una comprensión óptima de mi perfil por una audiencia diversa.",
         "Links": {
-            "Projects": "Projetos",
-            "Experience": "Experiência",
-            "Gallery": "Galeria",
-            "Articles": "Artigos",
-            "About": "Sobre"
+            "Projects": "Proyectos",
+            "Experience": "Experiencia",
+            "Gallery": "Galería",
+            "Articles": "Artículos",
+            "About": "Sobre mí"
         }
     }
 }

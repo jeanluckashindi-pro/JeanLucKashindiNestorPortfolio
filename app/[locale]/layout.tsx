@@ -1,54 +1,41 @@
+import type { Metadata } from "next";
+import { PrimeReactProvider } from 'primereact/api';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
-import { Geist, Geist_Mono } from "next/font/google";
+import 'mapbox-gl/dist/mapbox-gl.css';
 import "../globals.css";
-import { Metadata } from 'next';
-import { ThemeProvider } from "@/components/theme-provider";
-
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
-});
+import MegaMenu from "@/components/MegaMenu";
+import Footer from "@/components/Footer";
+import { notFound } from "next/navigation";
+import { locales } from "@/navigation";
 
 export const metadata: Metadata = {
-    title: "Jean-Luc Kashindi Nestor - Portfolio",
-    description: "Portfolio professionnel de Jean-Luc Kashindi Nestor",
+    title: "Jean Luc Kashindi Nestor - Portfolio",
+    description: "Portfolio professionnel",
 };
 
-export default async function LocaleLayout({
+export default async function RootLayout({
     children,
-    params: { locale }
+    params
 }: {
     children: React.ReactNode;
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }) {
+    const { locale } = await params;
+    if (!locales.includes(locale as any)) {
+        notFound();
+    }
     const messages = await getMessages();
 
     return (
-        <html lang={locale} suppressHydrationWarning>
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
-            >
+        <html lang={locale}>
+            <body className={`font-roboto antialiased bg-black text-white`}>
                 <NextIntlClientProvider messages={messages}>
-                    <ThemeProvider
-                        attribute="class"
-                        defaultTheme="dark"
-                        enableSystem
-                        disableTransitionOnChange
-                    >
-                        <Navbar />
-                        <main className="flex-1">
-                            {children}
-                        </main>
+                    <PrimeReactProvider>
+                        <MegaMenu />
+                        {children}
                         <Footer />
-                    </ThemeProvider>
+                    </PrimeReactProvider>
                 </NextIntlClientProvider>
             </body>
         </html>

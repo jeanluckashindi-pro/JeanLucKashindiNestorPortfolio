@@ -1,46 +1,288 @@
 {
-  "Navbar": {
-    "home": "Accueil",
-    "projects": "Projets & Réalisations",
-    "projectsDesc": "Découvrez mes travaux passés et actuels.",
-    "about": "Mon Parcours",
-    "aboutDesc": "Mon histoire et mes compétences.",
-    "contact": "Contact",
-    "contactDesc": "Discutons de vos projets.",
-    "items": {
-      "projects_solo": "Projets Solo",
-      "projects_solo_desc": "Applications et sites personnels.",
-      "projects_corp": "Projets Entreprise",
-      "projects_corp_desc": "Collaborations professionnelles.",
-      "articles": "Articles",
-      "articles_desc": "Partage de connaissances.",
-      "discovery": "Veille",
-      "discovery_desc": "Explorations technologiques.",
-      "experience": "Expérience",
-      "experience_desc": "Mon parcours professionnel.",
-      "skills": "Compétences",
-      "skills_desc": "Technologies maîtrisées.",
-      "history": "Histoire",
-      "history_desc": "Mon origine et mon évolution.",
-      "education": "Education",
-      "education_desc": "Formation académique."
+    "MegaMenu": {
+        "Home": "Accueil",
+        "Profile": {
+            "Label": "Profil",
+            "Featured": {
+                "Title": "Identité Numérique",
+                "Desc": "Développeur, Créatif, Architecte. Plongez dans mon univers.",
+                "CTA": "Bio Complète"
+            },
+            "Columns": {
+                "Essentials": {
+                    "Title": "Essentiel",
+                    "About": {
+                        "Label": "À propos",
+                        "Desc": "Qui suis-je vraiment ?"
+                    },
+                    "History": {
+                        "Label": "Histoire",
+                        "Desc": "D'où je viens"
+                    },
+                    "Values": {
+                        "Label": "Valeurs",
+                        "Desc": "Mes principes"
+                    }
+                },
+                "Skills": {
+                    "Title": "Compétences",
+                    "Hard": {
+                        "Label": "Hard Skills",
+                        "Desc": "Expertise Technique"
+                    },
+                    "Soft": {
+                        "Label": "Soft Skills",
+                        "Desc": "Intelligence Émotionnelle"
+                    },
+                    "CV": {
+                        "Label": "CV / Resume",
+                        "Desc": "Format PDF"
+                    }
+                }
+            }
+        },
+        "Experience": {
+            "Label": "Expériences",
+            "Featured": {
+                "Title": "Impact",
+                "Desc": "Transformer des défis en solutions pérennes.",
+                "CTA": "Voir Chronologie"
+            },
+            "Columns": {
+                "Career": {
+                    "Title": "Carrière",
+                    "Positions": {
+                        "Label": "Postes",
+                        "Desc": "Expérience Pro"
+                    },
+                    "Clients": {
+                        "Label": "Clients",
+                        "Desc": "Collaborations"
+                    }
+                },
+                "Knowledge": {
+                    "Title": "Savoir",
+                    "Diplomas": {
+                        "Label": "Diplômes",
+                        "Desc": "Master / Licence"
+                    },
+                    "Certs": {
+                        "Label": "Certifications",
+                        "Desc": "Officiels & Badges"
+                    }
+                },
+                "Highlights": {
+                    "Title": "Faits Marquants",
+                    "Missions": {
+                        "Label": "Missions Clés",
+                        "Desc": "Faits d'armes"
+                    },
+                    "Hackathons": {
+                        "Label": "Hackathons",
+                        "Desc": "Innover vite"
+                    }
+                }
+            }
+        },
+        "Projects": {
+            "Label": "Projets",
+            "Featured": {
+                "Title": "Réalisations",
+                "Desc": "Code, Design et Architecture en action.",
+                "CTA": "Tous les projets"
+            },
+            "Columns": {
+                "Type": {
+                    "Title": "Type",
+                    "Pro": {
+                        "Label": "Pro",
+                        "Desc": "Entreprise"
+                    },
+                    "Personal": {
+                        "Label": "Perso",
+                        "Desc": "Side Projects"
+                    },
+                    "OSS": {
+                        "Label": "Open Source",
+                        "Desc": "Communauté"
+                    }
+                },
+                "Stack": {
+                    "Title": "Tech Stack",
+                    "Web": {
+                        "Label": "Web / SaaS",
+                        "Desc": "React - Next.js"
+                    },
+                    "Mobile": {
+                        "Label": "Mobile",
+                        "Desc": "React Native"
+                    },
+                    "Backend": {
+                        "Label": "Backend",
+                        "Desc": "Node - Go"
+                    }
+                },
+                "DeepDive": {
+                    "Title": "Analyses",
+                    "Cases": {
+                        "Label": "Études de cas",
+                        "Desc": "Analyses détaillées"
+                    },
+                    "DevOps": {
+                        "Label": "DevOps",
+                        "Desc": "CI/CD & Infra"
+                    }
+                }
+            }
+        },
+        "Articles": {
+            "Label": "Articles",
+            "Featured": {
+                "Title": "Transmission",
+                "Desc": "Partager pour mieux apprendre.",
+                "CTA": "Blog"
+            },
+            "Columns": {
+                "Read": {
+                    "Title": "Lire",
+                    "Tech": {
+                        "Label": "Techniques",
+                        "Desc": "Architectures"
+                    },
+                    "Tutorials": {
+                        "Label": "Tutoriels",
+                        "Desc": "How-To Guides"
+                    },
+                    "News": {
+                        "Label": "Actualités",
+                        "Desc": "Quoi de neuf ?"
+                    }
+                },
+                "Watch": {
+                    "Title": "Veille",
+                    "Trends": {
+                        "Label": "Tendances",
+                        "Desc": "Futur du Web"
+                    },
+                    "Tools": {
+                        "Label": "Outils",
+                        "Desc": "Productivité"
+                    },
+                    "Reading": {
+                        "Label": "Lectures",
+                        "Desc": "Livres & Docs"
+                    }
+                }
+            }
+        },
+        "Gallery": {
+            "Label": "Galerie",
+            "Featured": {
+                "Title": "Visions",
+                "Desc": "Le monde à travers mes écrans.",
+                "CTA": "Galerie"
+            },
+            "Columns": {
+                "Visuals": {
+                    "Title": "Visuels",
+                    "Screenshots": {
+                        "Label": "Screenshots",
+                        "Desc": "Aperçus HD"
+                    },
+                    "UI": {
+                        "Label": "UI Design",
+                        "Desc": "Figma & Concepts"
+                    },
+                    "Events": {
+                        "Label": "Événements",
+                        "Desc": "Conférences"
+                    }
+                },
+                "Motion": {
+                    "Title": "Mouvement",
+                    "Demos": {
+                        "Label": "Démos",
+                        "Desc": "Live actions"
+                    },
+                    "Talks": {
+                        "Label": "Talks",
+                        "Desc": "Speaker"
+                    }
+                }
+            }
+        },
+        "Contact": "Contact",
+        "Available": "Disponible",
+        "ContactMe": "Contactez-moi"
+    },
+    "Footer": {
+        "Portfolio": "Portfolio",
+        "BrandQuote": "Architecturer le futur numérique avec précision, créativité et une vision centrée sur l'humain.",
+        "Explore": "Explorer",
+        "Info": "Informations",
+        "Languages": "Langues",
+        "Rights": "Tous droits réservés.",
+        "MadeWith": "Conçu avec Next.js & Passion",
+        "Remote": "Disponible en Remote &<br/>Relocation possible",
+        "Legal": "Mentions Légales",
+        "Privacy": "Politique de Confidentialité",
+        "LangNote": "* Ce portfolio est disponible en 8 langues afin d’élargir sa portée internationale et de garantir une compréhension optimale de mon profil par un public diversifié.",
+        "Links": {
+            "Projects": "Projets",
+            "Experience": "Expérience",
+            "Gallery": "Galerie",
+            "Articles": "Articles",
+            "About": "À propos"
+        }
+    },
+    "HomePage": {
+        "Hero": {
+            "Badge": "Disponible pour de nouvelles opportunités",
+            "Title1": "Ingénierie",
+            "Title2": "Créative",
+            "Desc": "Je conçois des écosystèmes numériques où la performance rencontre l'émotion. Une approche scientifique du design, une approche artistique du code.",
+            "CTA_Primary": "Explorer mes travaux",
+            "CTA_Secondary": "Me contacter"
+        },
+        "Stats": {
+            "Exp": "Années d'Expérience",
+            "Projects": "Projets Livrés",
+            "Commit": "Contributions"
+        },
+        "Bento": {
+            "Title": "Arsenal Technique",
+            "Sub": "Une fusion de technologies de pointe pour des résultats sans compromis.",
+            "Box1": "Architecture Frontend",
+            "Box1Desc": "React, Next.js, et tout l'écosystème moderne pour des interfaces fluides.",
+            "Box2": "Design System",
+            "Box2Desc": "Création de langages visuels cohérents et évolutifs.",
+            "Box3": "Performance",
+            "Box3Desc": "Optimisation au millimètre pour une vitesse éclair.",
+            "Box4": "Backend & Cloud",
+            "Box4Desc": "Node.js, Go, et infrastructures scalables."
+        },
+        "Featured": {
+            "Title": "Projets en Vedette",
+            "Desc": "Une sélection de mes travaux les plus récents et impactants.",
+            "ViewAll": "Voir tout les projets"
+        },
+        "Insights": {
+            "Title": "Réflexions & Tutoriels",
+            "Desc": "Partager la connaissance pour élever les standards.",
+            "ReadMore": "Lire l'article"
+        },
+        "Tutorials": {
+            "Title": "Tutoriels Vidéo",
+            "Desc": "Maîtrisez les technologies modernes avec mes guides détaillés.",
+            "Views": "vues",
+            "Ago": "il y a",
+            "Duration": "Durée"
+        },
+        "News": {
+            "Title": "Articles & Actualités",
+            "Desc": "Veille technologique, opinions et découvertes écrites.",
+            "FeaturedBadge": "À la une",
+            "ReadTime": "min de lecture"
+        }
     }
-  },
-  "Footer": {
-    "builtBy": "Construit par",
-    "contact": "Contact",
-    "profile": "Profil & CV"
-  },
-  "Home": {
-    "title": "Jean-Luc Kashindi Nestor",
-    "subtitle": "Développeur & Créateur Numérique",
-    "description": "Je conçois des solutions digitales innovantes et performantes. Expertise en développement web, mobile et architecture logicielle.",
-    "ctaPortfolio": "Voir le Portfolio",
-    "ctaContact": "Me Contacter",
-    "expertiseTitle": "Expertise Principale",
-    "expertiseSubtitle": "Des compétences techniques solides pour des projets ambitieux.",
-    "recentWorkTitle": "Réalisations Récentes",
-    "recentWorkSubtitle": "Une sélection de mes derniers projets.",
-    "viewAllProjects": "Voir tous les projets"
-  }
 }

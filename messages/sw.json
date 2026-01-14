@@ -1,46 +1,238 @@
 {
-    "Navbar": {
-        "home": "Nyumbani",
-        "projects": "Miradi & Kazi",
-        "projectsDesc": "Gundua kazi zangu za zamani na za sasa.",
-        "about": "Kuhusu Mimi",
-        "aboutDesc": "Historia yangu na ujuzi.",
-        "contact": "Mawasiliano",
-        "contactDesc": "Tujadili miradi yako.",
-        "items": {
-            "projects_solo": "Miradi ya Binafsi",
-            "projects_solo_desc": "Programu na tovuti za kibinafsi.",
-            "projects_corp": "Miradi ya Kampuni",
-            "projects_corp_desc": "Ushirikiano wa kitaaluma.",
-            "articles": "Makala",
-            "articles_desc": "Kushiriki maarifa.",
-            "discovery": "Uvumbuzi",
-            "discovery_desc": "Uchunguzi wa kiteknolojia.",
-            "experience": "Uzoefu",
-            "experience_desc": "Safari yangu ya kitaaluma.",
-            "skills": "Ujuzi",
-            "skills_desc": "Teknolojia ninazozimudu.",
-            "history": "Historia",
-            "history_desc": "Asili yangu na maendeleo.",
-            "education": "Elimu",
-            "education_desc": "Msingi wa elimu."
-        }
+    "MegaMenu": {
+        "Home": "Nyumbani",
+        "Profile": {
+            "Label": "Wasifu",
+            "Featured": {
+                "Title": "Utambulisho wa Dijiti",
+                "Desc": "Mjenzi, Mbunifu, Msanifu. Ingia katika ulimwengu wangu.",
+                "CTA": "Wasifu Kamili"
+            },
+            "Columns": {
+                "Essentials": {
+                    "Title": "Muhimu",
+                    "About": {
+                        "Label": "Kuhusu",
+                        "Desc": "Mimi ni nani hasa?"
+                    },
+                    "History": {
+                        "Label": "Historia",
+                        "Desc": "Nilipotoka"
+                    },
+                    "Values": {
+                        "Label": "Maadili",
+                        "Desc": "Misingi yangu"
+                    }
+                },
+                "Skills": {
+                    "Title": "Ujuzi",
+                    "Hard": {
+                        "Label": "Ujuzi wa Kiufundi",
+                        "Desc": "Utaalamu"
+                    },
+                    "Soft": {
+                        "Label": "Ujuzi wa Kijamii",
+                        "Desc": "Akili ya Kihisia"
+                    },
+                    "CV": {
+                        "Label": "Wasifu / CV",
+                        "Desc": "Muundo wa PDF"
+                    }
+                }
+            }
+        },
+        "Experience": {
+            "Label": "Uzoefu",
+            "Featured": {
+                "Title": "Athari",
+                "Desc": "Kubadilisha changamoto kuwa suluhisho la kudumu.",
+                "CTA": "Tazama Ratiba"
+            },
+            "Columns": {
+                "Career": {
+                    "Title": "Kazi",
+                    "Positions": {
+                        "Label": "Nafasi",
+                        "Desc": "Uzoefu wa Kazi"
+                    },
+                    "Clients": {
+                        "Label": "Wateja",
+                        "Desc": "Ushirikiano"
+                    }
+                },
+                "Knowledge": {
+                    "Title": "Maarifa",
+                    "Diplomas": {
+                        "Label": "Vyeti",
+                        "Desc": "Uzamili / Shahada"
+                    },
+                    "Certs": {
+                        "Label": "Vyeti",
+                        "Desc": "Rasmi & Beji"
+                    }
+                },
+                "Highlights": {
+                    "Title": "Vivutio",
+                    "Missions": {
+                        "Label": "Misheni Kuu",
+                        "Desc": "Mafanikio"
+                    },
+                    "Hackathons": {
+                        "Label": "Hackathons",
+                        "Desc": "Ubunifu wa Haraka"
+                    }
+                }
+            }
+        },
+        "Projects": {
+            "Label": "Miradi",
+            "Featured": {
+                "Title": "Kazi Zangu",
+                "Desc": "Kanuni, Ubunifu na Usanifu kazini.",
+                "CTA": "Miradi yote"
+            },
+            "Columns": {
+                "Type": {
+                    "Title": "Aina",
+                    "Pro": {
+                        "Label": "Kazi",
+                        "Desc": "Kampuni"
+                    },
+                    "Personal": {
+                        "Label": "Binafsi",
+                        "Desc": "Miradi ya Kando"
+                    },
+                    "OSS": {
+                        "Label": "Chanzo Huria",
+                        "Desc": "Jumuiya"
+                    }
+                },
+                "Stack": {
+                    "Title": "Teknolojia",
+                    "Web": {
+                        "Label": "Wavuti / SaaS",
+                        "Desc": "React - Next.js"
+                    },
+                    "Mobile": {
+                        "Label": "Simu",
+                        "Desc": "React Native"
+                    },
+                    "Backend": {
+                        "Label": "Backend",
+                        "Desc": "Node - Go"
+                    }
+                },
+                "DeepDive": {
+                    "Title": "Uchambuzi",
+                    "Cases": {
+                        "Label": "Uchunguzi",
+                        "Desc": "Uchambuzi wa Kina"
+                    },
+                    "DevOps": {
+                        "Label": "DevOps",
+                        "Desc": "CI/CD & Miundombinu"
+                    }
+                }
+            }
+        },
+        "Articles": {
+            "Label": "Makala",
+            "Featured": {
+                "Title": "Uhamisho",
+                "Desc": "Kushiriki ili kujifunza zaidi.",
+                "CTA": "Blogu"
+            },
+            "Columns": {
+                "Read": {
+                    "Title": "Soma",
+                    "Tech": {
+                        "Label": "Kiufundi",
+                        "Desc": "Usanifu"
+                    },
+                    "Tutorials": {
+                        "Label": "Mafunzo",
+                        "Desc": "Miongozo"
+                    },
+                    "News": {
+                        "Label": "Habari",
+                        "Desc": "Mpya ni nini?"
+                    }
+                },
+                "Watch": {
+                    "Title": "Tazama",
+                    "Trends": {
+                        "Label": "Mienendo",
+                        "Desc": "Wavuti ya Baadaye"
+                    },
+                    "Tools": {
+                        "Label": "Zana",
+                        "Desc": "Uzalishaji"
+                    },
+                    "Reading": {
+                        "Label": "Kusoma",
+                        "Desc": "Vitabu & Nyaraka"
+                    }
+                }
+            }
+        },
+        "Gallery": {
+            "Label": "Matunzio",
+            "Featured": {
+                "Title": "Maono",
+                "Desc": "Dunia kupitia skrini zangu.",
+                "CTA": "Matunzio"
+            },
+            "Columns": {
+                "Visuals": {
+                    "Title": "Picha",
+                    "Screenshots": {
+                        "Label": "Picha za Skrini",
+                        "Desc": "Onyesho la HD"
+                    },
+                    "UI": {
+                        "Label": "Ubunifu wa UI",
+                        "Desc": "Figma & Dhana"
+                    },
+                    "Events": {
+                        "Label": "Matukio",
+                        "Desc": "Mikutano"
+                    }
+                },
+                "Motion": {
+                    "Title": "Mwendo",
+                    "Demos": {
+                        "Label": "Demos",
+                        "Desc": "Matendo ya moja kwa moja"
+                    },
+                    "Talks": {
+                        "Label": "Mazungumzo",
+                        "Desc": "Mzungumzaji"
+                    }
+                }
+            }
+        },
+        "Contact": "Mawasiliano",
+        "Available": "Napatikana",
+        "ContactMe": "Nitumie Ujumbe"
     },
     "Footer": {
-        "builtBy": "Imetengenezwa na",
-        "contact": "Mawasiliano",
-        "profile": "Wasifu & CV"
-    },
-    "Home": {
-        "title": "Jean-Luc Kashindi Nestor",
-        "subtitle": "Msanidi Programu & Mbunifu wa Dijitali",
-        "description": "Ninabuni suluhisho za dijitali zenye ubunifu na utendaji wa hali ya juu. Utaalam katika maendeleo ya wavuti, programu za simu na usanifu wa programu.",
-        "ctaPortfolio": "Tazama Portfolio",
-        "ctaContact": "Wasiliana Nami",
-        "expertiseTitle": "Utaalam Mkuu",
-        "expertiseSubtitle": "Ujuzi thabiti wa kiufundi kwa miradi mikubwa.",
-        "recentWorkTitle": "Kazi za Hivi Karibuni",
-        "recentWorkSubtitle": "Uteuzi wa miradi yangu ya hivi karibuni.",
-        "viewAllProjects": "Tazama miradi yote"
+        "Portfolio": "Wasifu",
+        "BrandQuote": "Kusanifu mustakabali wa dijiti kwa usahihi, ubunifu, na maono yanayomlenga binadamu.",
+        "Explore": "GUNDUA",
+        "Info": "Taarifa",
+        "Languages": "Lugha",
+        "Rights": "Haki zote zimehifadhiwa.",
+        "MadeWith": "Imetengenezwa kwa Next.js & Passion",
+        "Remote": "Inapatikana kwa Kazi ya Mbali &<br/>Uhamisho unawezekana",
+        "Legal": "Taarifa za Kisheria",
+        "Privacy": "Sera ya Faragha",
+        "LangNote": "* Wasifu huu unapatikana katika lugha 8 ili kupanua ufikiaji wake wa kimataifa na kuhakikisha uelewa bora wa wasifu wangu kwa hadhira mbalimbali.",
+        "Links": {
+            "Projects": "Miradi",
+            "Experience": "Uzoefu",
+            "Gallery": "Matunzio",
+            "Articles": "Makala",
+            "About": "Kuhusu"
+        }
     }
 }
